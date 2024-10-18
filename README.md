@@ -2,3 +2,4 @@
 
 ## Chapter
 - Chapter 01. 데이터 모델링
+- Chapter 02. 데이터 모델과 성능
