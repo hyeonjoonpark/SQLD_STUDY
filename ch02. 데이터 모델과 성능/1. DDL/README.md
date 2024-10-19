@@ -37,7 +37,7 @@ DROP : 테이블을 삭제하는 명령어
 |-|
 |DROP TABLE <테이블명> [CASCADE CONSTRAINT];|
 
-TRUNCATE : 테이블은 삭제되지 않지만 테이블에 존재하는 모든 행 제거한는 명령어
+TRUNCATE : 테이블은 삭제되지 않지만 테이블에 존재하는 모든 행 제거하는 명령어
 |SQL문|
 |-|
 |TRUNCATE TABLE <테이블명>;|
