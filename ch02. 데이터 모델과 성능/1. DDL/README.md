@@ -27,10 +27,10 @@ DDL 대상
 ALTER : 테이블 등의 구조를 변경하는 명령어
 |종료|설명|예문|
 |---|---|---|
-|ADD|테이블에 새로운 컬럼 추가<br>테이블에 제약조건 추가|ALTER TABLE <테이블명>  ADD (<컬럼명> <자료형> <제약조건>); <br> ALTER TABLE <테이블명> ADD (<제약조건명> <제약조건> <컬럼명>);|
+|ADD|테이블에 새로운 컬럼 추가<br><br> 테이블에 제약조건 추가|ALTER TABLE <테이블명>  ADD (<컬럼명> <자료형> <제약조건>); <br><br> ALTER TABLE <테이블명> ADD (<제약조건명> <제약조건> <컬럼명>);|
 |MODIFY|컬럼의 데이터 타입 변경|ALTER TABLE <테이블명> MODIFY (<컬럼명> <자료형> <제약조건>);|
-|RENAME|테이블명 변경<br>컬럼명 변경|ALTER TABLE <테이블명> RENAME TO <변경 후 테이블명>;<br> ALTER TABLE <테이블명> RENAME COLUMN <변경 전 컬럼명> TO <변경 후 컬럼명>;|
-|DROP|테이블 컬럼 삭제<br>컬럼명 변경|ALTER TABLE <테이블명> DROP COLUMN <컬럼명>;<br> ALTER TABLE <테이블명> DROP CONSTRAINT <제약조건명>;|
+|RENAME|테이블명 변경<br><br>컬럼명 변경|ALTER TABLE <테이블명> RENAME TO <변경 후 테이블명>;<br><br> ALTER TABLE <테이블명> RENAME COLUMN <변경 전 컬럼명> TO <변경 후 컬럼명>;|
+|DROP|테이블 컬럼 삭제<br><br>컬럼명 변경|ALTER TABLE <테이블명> DROP COLUMN <컬럼명>;<br><br> ALTER TABLE <테이블명> DROP CONSTRAINT <제약조건명>;|
 
 DROP : 테이블을 삭제하는 명령어
 |SQL 문|
