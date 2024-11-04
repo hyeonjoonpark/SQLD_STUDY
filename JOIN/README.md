@@ -72,6 +72,8 @@ FROM TAB1 A CROSS JOIN TAB2 B
 CROSS JOIN 이란? NULL 상관없이 모든 가능한 경우
 SQL 실행 결과 건수 : 16
 
+TAB1 컬럼 갯수 * TAB2 컬럼 갯수
+
 ### NATURAL JOIN
 ```sql
 SELECT *
@@ -79,3 +81,5 @@ FROM TAB1 A NATURAL JOIN TAB2 B
 ```
 NATURAL JOIN 이란? 컬럼의 이름이 같은 것 끼리
 SQL 실행 결과 건수 : 3
+
+NULL은 NULL과 같지 않음
