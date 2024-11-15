@@ -11,3 +11,8 @@
 SELECT SUM(COALESCE(C1, C2, C3))
 FROM TAB1
 ```
+
+### COALESCE(인자1, 인자2, ...)
+COALESCE 함수는 처음으로 NULL이 아닌 인자를 반환
+
+정답: 1 + 2 + 3 = `6`
